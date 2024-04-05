@@ -43,7 +43,7 @@ void linearsearch()
 		ctr = 0;
 		i = 0; //step 2
 		while (i < n) //step 3
-	{
+		{
 			ctr++;
 			if (arr[i] == item)
 			{
@@ -52,4 +52,6 @@ void linearsearch()
 			}
 			i++; //step 4
 		}
+	}
 
+	if (i == n) //step 5 
