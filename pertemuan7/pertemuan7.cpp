@@ -34,4 +34,13 @@ void linearsearch()
 	int ctr; //Number of comporisons
 	int item;
 
-	
+	do
+	{
+		// Accept the number to be searched
+		cout << "\nEnter the element you want to search : ";
+		cin >> item;
+
+		ctr = 0;
+		i = 0;
+		while (i < n)
+		{
