@@ -62,6 +62,7 @@ void linearsearch()
    while ((ch == 'y') || (ch == 'Y'));
 }
 
+void display()
 
 		
 	
